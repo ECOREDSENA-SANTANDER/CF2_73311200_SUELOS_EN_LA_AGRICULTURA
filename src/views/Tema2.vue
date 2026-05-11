@@ -104,7 +104,19 @@
       .col-lg-6
         img(src="@/assets/curso/Tema2/img03.png")
       .col-lg-6
-
+        LineaTiempoD.color-primario
+          .row(numero="1" titulo="Producción sostenible")
+            .col-md-12.mb-4.mb-md-0
+              p Busca mantener o aumentar la productividad sin deteriorar el suelo.
+          .row(numero="2" titulo="Conservación del recurso suelo")
+            .col-md-12.mb-4.mb-md-0
+              p Prioriza la protección frente a la erosión, compactación y pérdida de fertilidad.
+          .row(numero="3" titulo="Equilibrio ecológico")
+            .col-md-12.mb-4.mb-md-0
+              p Promueve la biodiversidad y los procesos naturales del suelo.
+          .row(numero="4" titulo="Eficiencia en el uso de insumos")
+            .col-md-12.mb-4.mb-md-0
+              p Reduce la dependencia de productos químicos.
 
 
 
