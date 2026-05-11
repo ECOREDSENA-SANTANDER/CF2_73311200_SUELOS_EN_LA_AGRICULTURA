@@ -1,1 +1,2 @@
-module.exports = 'Ecored Base PKG'
+module.exports =
+  'Propiedades biológicas, manejo y conservación del suelo en la agricultura.'

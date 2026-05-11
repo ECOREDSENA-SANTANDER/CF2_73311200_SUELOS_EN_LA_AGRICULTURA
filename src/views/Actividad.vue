@@ -16,488 +16,680 @@ export default {
     ActividadController,
   },
   data: () => ({
-    parrafo: {
-      tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
-      titulo: 'Completar frases',
-      introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
-      instruccion:
-        'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
-      imagen: require('@/assets/actividad/imagen5.png'),
-      barajarPreguntas: true,
-      textos: [
-        {
-          id: 1,
-          texto:
-            'El [respuesta] personal es una herramienta que permite proyectar ingresos y egresos para mantener la estabilidad económica.',
-          respuesta: 'presupuesto',
-        },
-        {
-          id: 2,
-          texto:
-            'La constancia en el cumplimiento del presupuesto refleja un alto nivel de [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 3,
-          texto:
-            'Ahorrar no es lo que sobra, sino lo que se [respuesta] guardar antes de gastar.',
-          respuesta: 'planifica',
-        },
-        {
-          id: 4,
-          texto:
-            'Un gasto innecesario que puede eliminarse sin afectar la calidad de vida básica se denomina gasto [respuesta].',
-          respuesta: 'discrecional',
-        },
-        {
-          id: 5,
-          texto:
-            'La cultura del ahorro promueve el uso responsable de los [respuesta] disponibles.',
-          respuesta: 'recursos',
-        },
-        {
-          id: 6,
-          texto:
-            'El estado de [respuesta] personales permite analizar la relación entre ingresos y egresos en un periodo determinado.',
-          respuesta: 'resultados',
-        },
-        {
-          id: 7,
-          texto:
-            'Cuando los ingresos son mayores que los egresos se generan una [respuesta] que puede destinarse al ahorro.',
-          respuesta: 'utilidad',
-        },
-        {
-          id: 8,
-          texto:
-            'Uno de los beneficios de ejecutar un presupuesto es la reducción del [respuesta] financiero.',
-          respuesta: 'estrés',
-        },
-        {
-          id: 9,
-          texto:
-            'Evitar gastos impulsivos y mantener límites presupuestales refleja [respuesta] financiera.',
-          respuesta: 'disciplina',
-        },
-        {
-          id: 10,
-          texto:
-            'Contar con un fondo de [respuesta] permite enfrentar gastos inesperados sin afectar el presupuesto.',
-          respuesta: 'emergencia',
-        },
-      ],
-    },
     cuestionario: {
-      tema: 'Nombre del CF',
+      tema:
+        'Propiedades biológicas, manejo y conservación del suelo en la agricultura.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar el nivel de comprensión de los aprendices sobre las propiedades biológicas del suelo, su importancia en la producción agrícola, así como las prácticas de manejo y conservación orientadas a la sostenibilidad. ',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: 'La biología del suelo estudia principalmente:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'La textura del suelo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'Los organismos vivos del suelo y sus interacciones.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'La composición mineral del suelo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'El color del suelo.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
         },
+
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'La materia orgánica en el suelo contribuye a:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Disminuir la fertilidad.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Aumentar la erosión.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Mejorar la estructura y fertilidad del suelo.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Eliminar microorganismos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
         },
+
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Cuál de los siguientes es un organismo del suelo?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Arena.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Arcilla.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto: 'Bacterias.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Minerales.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
         },
+
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: 'La descomposición de materia orgánica es un proceso:',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Físico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mecánico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Químico.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Biológico.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+        },
+
+        {
+          id: 5,
+          texto: 'La fertilidad del suelo depende en gran medida de:',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El color.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La actividad biológica.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El tamaño del terreno.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El clima únicamente.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+        },
+
+        {
+          id: 6,
+          texto: 'Una enmienda orgánica tiene como función principal:',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Compactar el suelo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir la biodiversidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mejorar las propiedades del suelo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar nutrientes.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+        },
+
+        {
+          id: 7,
+          texto: 'La degradación del suelo puede ser causada por:',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Buenas prácticas agrícolas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Uso adecuado del agua.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sobreexplotación y malas prácticas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Rotación de cultivos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+        },
+
+        {
+          id: 8,
+          texto: 'La erosión del suelo es:',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Aumento de nutrientes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Pérdida de la capa superficial.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Incremento de materia orgánica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Formación de microorganismos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+        },
+
+        {
+          id: 9,
+          texto: 'El manejo sostenible del suelo busca:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Explotar al máximo el suelo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mantener su productividad a largo plazo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir la biodiversidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar materia orgánica.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+        },
+
+        {
+          id: 10,
+          texto: '¿Cuál de las siguientes labores mejora la salud del suelo?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Uso excesivo de químicos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Quema de residuos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Incorporación de abonos orgánicos.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Labranza intensiva.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen2.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'La biodiversidad del suelo está relacionada con:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Variedad de organismos vivos.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Cantidad de maquinaria.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Tamaño del cultivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Uso de fertilizantes químicos.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
         },
+
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: 'Un suelo saludable se caracteriza por:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Baja actividad biológica.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Alta compactación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Equilibrio biológico y buena fertilidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Ausencia de microorganismos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
         },
+
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: 'La conservación del suelo busca principalmente:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Incrementar la erosión.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Proteger y mantener sus propiedades.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reducir su uso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar cultivos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
         },
+
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'La lombriz de tierra es importante porque:',
+          imagen: require('@/assets/actividad/imagen05.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Compacta el suelo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Reduce nutrientes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mejora la aireación y fertilidad.',
               esCorrecta: true,
             },
+            {
+              id: 'd',
+              texto: 'Elimina materia orgánica.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
         },
+
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'El ciclo de nutrientes permite:',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Perder nutrientes.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Reducir la fertilidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Eliminar organismos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Transformar y reutilizar nutrientes.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+        },
+
+        {
+          id: 16,
+          texto: 'Una práctica de conservación del suelo es:',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Tala indiscriminada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Monocultivo intensivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Cobertura vegetal.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Uso excesivo de pesticidas.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+        },
+
+        {
+          id: 17,
+          texto:
+            'El impacto del manejo del suelo en los cultivos se refleja en:',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El tamaño del terreno.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La productividad y calidad de los cultivos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El número de herramientas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El clima únicamente.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+        },
+
+        {
+          id: 18,
+          texto: '¿Qué afecta negativamente la biología del suelo?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Uso de compost.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Rotación de cultivos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Incorporación de materia orgánica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Uso excesivo de agroquímicos.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+        },
+
+        {
+          id: 19,
+          texto: 'La simbiosis en el suelo ocurre cuando:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Dos organismos compiten.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Dos organismos se benefician mutuamente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Un organismo muere.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'No hay interacción.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+        },
+
+        {
+          id: 20,
+          texto: 'Una estrategia para mejorar la salud del suelo es:',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar microorganismos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir materia orgánica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Implementar prácticas agroecológicas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Aumentar la erosión.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Se evidencia un adecuado dominio de los conceptos relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
+          mensaje_incorrecto:
+            'Se recomienda revisar nuevamente los contenidos del componente formativo relacionados con las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre las “Propiedades biológicas, manejo y conservación del suelo en la agricultura”.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
