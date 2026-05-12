@@ -93,19 +93,48 @@ figcaption
 .bg02
   background-color: #375E02
   border-radius: 20px
+
+
 .bg03
   background-color: #FEF9E8
   border-radius: 20px
+.bg003
+  position: relative
+  overflow: hidden
+.bg003::before
+  content: ''
+  position: absolute
+  top: 0
+  left: 0
+  width: 70%
+  height: 100%
+  background-color: #FEF9E8
+  z-index: 0
+.bg003 > *
+  position: relative
+  z-index: 1
+@media (max-width: 991px)
+  .bg003::before
+    width: 100% !important
 .bg04
   background-color: #E5CBA6
 .bg05
   background-color: #375E02
 .bg06
   background-color: #C0E886
-
+.bg07
+  background-color: #EAEEE5
+.bg007
+  background-color: #EAEEE5
+  border-radius: 20px
+.bg08
+  background-color: #C1B09C
+  border-radius: 20px
 .fa-hoja
   content: url('../assets/curso/Tema2/hoja.svg')
-  vertical-align: top !important
+  align-items: flex-start !important
+.izq
+  margin-left: -1rem
 .linea-tiempo-d.color-primario .linea-tiempo-d__item__number
   background-color: #E0D7CD !important
 
@@ -117,3 +146,128 @@ figcaption
 
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
     background-color: #EAEEE5 !important
+.acordion__accion__btn--a
+  background-color: #375E02 !important
+.acordion .tarjeta--azul
+  background-color: #C1B09C !important
+  h3,
+    color: #12263F
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #E0D7CD !important
+  h3,
+    color: #12263F
+
+.fa-minus
+  --fa: "\f068"
+  color: white !important
+.fa-plus 
+  --fa: "\2b"
+  color: white !important
+
+ul.lista-ul
+  li.d-flex
+    display: flex
+    align-items: flex-start
+.fondo01
+  background-image: url('../assets/curso/Tema1/fondo01.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.fondo03
+  background-image: url('../assets/curso/Tema1/fondo03.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    background-size: cover 
+.fondo001
+  background-image: url('../assets/curso/Tema1/fondo001.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.tarjeta--boton.color-primario
+  height: 100%
+  display: flex
+  flex-direction: column
+
+.tarjeta--boton.color-primario p
+  flex-grow: 1
+.tarjeta--boton.color-primario
+  background-color: #E0D7CD
+  transition: all .3s ease
+  &:hover
+    background-color: #EAEEE5 !important
+    transform: translateY(-4px)
+    p,
+      color: #12263F
+
+.fondo02
+  background-image: url('../assets/curso/Tema2/fondo2.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover 
+  @media screen and (max-width: 767px) 
+    background-size: cover 
+.bgsly
+  background-image: url('../assets/curso/Tema2/fondo.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover 
+  @media screen and (max-width: 767px) 
+    background-size: cover 
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right 
+    border: 2px solid #375E02
+    background-color: #375E02
+.fa-angle-right 
+  --fa: "\f105"
+  color: #ffff
+.fa-angle-left 
+  --fa: "\f104"
+  color: #ffff
+.tabla-a table td,
+.tabla-a table th
+  vertical-align: top
+
+.acordion .tarjeta--azull 
+  background-color: #375E02 !important
+  p, h3,
+    color: white
+.acordion__accion__btn--b 
+  border: 1px solid #FEE1B9
+  background-color: #FEE1B9
+
+.acordion .tarjeta.tarjeta--azull.acordion__activo
+  background-color:  #653B09 !important
+
+.bgblanco
+  background-color: #fff
+
+.slyder__btn 
+  background-color: #375E02 !important
+.tabs-b.color-acento-botones .tabs-b__tab--active 
+  border-top-color: #375E02 !important
+  background-color: #E0D7CD !important
+.tabs-b__tab 
+  background-color: #C0E886 !important
+
+  

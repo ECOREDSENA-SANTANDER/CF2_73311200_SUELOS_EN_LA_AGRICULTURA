@@ -7,7 +7,7 @@
         span 3
       h1 Integración suelo y producción
 
-    .bloque-texto-g.bg01.p-3.p-sm-4.p-md-5.mb-3
+    .bloque-texto-g.bg01.p-3.p-sm-4.p-md-5.mb-3(data-aos="zoom-in-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/Tema3/img01.png')})`}"
       )
@@ -26,7 +26,7 @@
     p Existe una relación directa entre la actividad biológica del suelo y el rendimiento agrícola.
 
     
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in-left")
       .col-lg-5
         .row.justify-content-start.mb-4(data-aos="zoom-in-left")
           .col-sm-12.col-lg-12
@@ -56,7 +56,7 @@
 
       p El manejo del suelo es un factor determinante para el éxito de los cultivos, ya que influye directamente en la disponibilidad de nutrientes, el desarrollo radicular, la retención de agua y la actividad biológica del ecosistema edáfico. Un manejo adecuado permite mantener la fertilidad del suelo y favorecer la productividad agrícola de manera sostenible.
 
-      .row.justify-content-center.align-items-center.mb-0
+      .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
         .col-lg-10
           .tarjeta--container.row.mb-5
             .col-md.tarjeta.bg04.p-5
