@@ -1,2 +1,2 @@
 module.exports =
-  'Propiedades biológicas, manejo y conservación del suelo en la agricultura.'
+  'Propiedades biológicas, manejo y conservación del suelo en la agricultura'

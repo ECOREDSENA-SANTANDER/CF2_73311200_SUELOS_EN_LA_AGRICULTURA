@@ -21,7 +21,7 @@ export default {
         'Propiedades biológicas, manejo y conservación del suelo en la agricultura.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar el nivel de comprensión de los aprendices sobre las propiedades biológicas del suelo, su importancia en la producción agrícola, así como las prácticas de manejo y conservación orientadas a la sostenibilidad. ',
+        '<b> Objetivo:</b> evaluar el nivel de comprensión de los aprendices sobre las propiedades biológicas del suelo, su importancia en la producción agrícola, así como las prácticas de manejo y conservación orientadas a la sostenibilidad. ',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -595,7 +595,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Uso de compost.',
+              texto: 'Uso de <i>compost</i>.',
               esCorrecta: false,
             },
             {

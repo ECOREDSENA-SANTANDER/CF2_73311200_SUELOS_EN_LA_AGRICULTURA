@@ -1,7 +1,7 @@
 export default {
   global: {
     Name:
-      'Propiedades biológicas, manejo y conservación del suelo en la agricultura.',
+      'Propiedades biológicas, manejo y conservación del suelo en la agricultura',
     Description:
       'Este componente aborda de manera integral las propiedades biológicas del suelo, destacando la importancia de los microorganismos, macroorganismos y la materia orgánica en los procesos de descomposición, reciclaje de nutrientes y mantenimiento de la fertilidad. Asimismo, incluye el estudio de prácticas adecuadas de manejo y conservación del suelo, orientadas a prevenir su degradación. Se promueve el uso sostenible del recurso suelo, con el fin de mejorar la productividad agrícola, fortalecer los ecosistemas y garantizar el equilibrio ambiental a largo plazo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -255,6 +255,11 @@ export default {
     },
     {
       referencia:
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s.f.). Conservación del suelo. Portal de Suelos de la FAO.',
+      link: '',
+    },
+    {
+      referencia:
         'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s.f.). Propiedades biológicas del suelo. Portal de Suelos de la FAO.',
       link: '',
     },
@@ -281,6 +286,11 @@ export default {
         {
           nombre: 'Andrés Javier Pacheco Wandurraga',
           cargo: 'Experto temático',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: ' Laura Paola Gelvez Manosalva',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -314,7 +324,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

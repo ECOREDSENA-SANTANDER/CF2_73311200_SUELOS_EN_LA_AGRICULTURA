@@ -55,20 +55,19 @@
                     h3 La influencia de las prácticas agrícolas sobre la biodiversidad del suelo
                     p El uso excesivo de agroquímicos, la labranza intensiva o la quema de residuos pueden reducir la biodiversidad, mientras que prácticas como la incorporación de materia orgánica y la rotación de cultivos la favorecen.
                 
-                .row.justify-content-center.align-items-center
-                  .col-lg-5.mb-3.col-md-8
-                    figure
-                      img(src='@/assets/curso/Tema1/04.png', alt='')
-                  .col-lg-5.mb-4.mb-md-0
-                    h3 Importancia de las propiedades biológicas en la producción agrícola
-                    p Las propiedades biológicas del suelo determinan en gran medida su calidad, entendida como la capacidad para sostener la producción vegetal, mantener la calidad ambiental y favorecer la salud de los organismos.
+      .row.justify-content-start.mb-4(data-aos="zoom-in-left")
+        .col-sm-12.col-lg-12
+          .d-flex.align-items-center
+            img.w-card-icon(src="@/assets/curso/Tema3/ico2.svg")
+            h3.bg02.py-2.w-card-text.text-white Importancia de las propiedades biológicas en la producción agrícola
+      p Las propiedades biológicas del suelo determinan en gran medida su calidad, entendida como la capacidad para sostener la producción vegetal, mantener la calidad ambiental y favorecer la salud de los organismos.
                
 
       .row.justify-content-start.mb-4(data-aos="zoom-in-left")
         .col-sm-12.col-lg-7
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/Tema3/ico.svg")
-            h3.bg001.py-2.w-card-text a) Aspectos clave
+            h3.bg001.py-2.w-card-text a) Aspectos claves
 
       .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
         .col-lg-3.col-8.mb-3.col-md-6
@@ -115,7 +114,7 @@
           .tarjeta.clr--pink.p-4.rounded-0.h-100.bg06
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-botones(
-              texto="Pódcast: Para complementar toda esta información se invita al aprendiz a visitar el siguiente pódcast que será de gran utilidad:"
+              texto="Pódcast: para complementar toda esta información se invita al aprendiz a visitar el siguiente pódcast que será de gran utilidad:"
               :audio="require('@/assets/curso/Tema1/podcast.svg')"
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
@@ -178,7 +177,7 @@
 
             .row.justify-content-center(titulo="b)	<i>Mesofauna</i>")
               .col-md-11.mb-4.mb-md-0
-                p la macrofauna del suelo está compuesta por organismos de mayor tamaño, generalmente superiores a 2 milímetros, visibles a simple vista y con una alta capacidad de modificar físicamente la estructura del suelo. Estos organismos cumplen funciones clave en la formación, aireación, mezcla y fertilidad del suelo, por lo que son considerados fundamentales en los sistemas agrícolas sostenibles. Entre los principales representantes de la macrofauna se encuentran.
+                p La macrofauna del suelo está compuesta por organismos de mayor tamaño, generalmente superiores a 2 milímetros, visibles a simple vista y con una alta capacidad de modificar físicamente la estructura del suelo. Estos organismos cumplen funciones clave en la formación, aireación, mezcla y fertilidad del suelo, por lo que son considerados fundamentales en los sistemas agrícolas sostenibles. Entre los principales representantes de la macrofauna se encuentran.
               .col-md-10.mb-0.mb-md-0.mb-0
                 .row.mb-2
                   .col-lg-4.mb-3
@@ -200,7 +199,7 @@
              
             .row.justify-content-center(titulo="c)	Macrofauna")
               .col-md-11.mb-2.mb-md-0
-                p la macrofauna del suelo está compuesta por organismos de mayor tamaño, generalmente superiores a 2 milímetros, visibles a simple vista y con una alta capacidad de modificar físicamente la estructura del suelo. Estos organismos cumplen funciones clave en la formación, aireación, mezcla y fertilidad del suelo, por lo que son considerados fundamentales en los sistemas agrícolas sostenibles. Entre los principales representantes de la macrofauna se encuentran.
+                p La macrofauna del suelo está compuesta por organismos de mayor tamaño, generalmente superiores a 2 milímetros, visibles a simple vista y con una alta capacidad de modificar físicamente la estructura del suelo. Estos organismos cumplen funciones clave en la formación, aireación, mezcla y fertilidad del suelo, por lo que son considerados fundamentales en los sistemas agrícolas sostenibles. Entre los principales representantes de la macrofauna se encuentran.
               .col-md-10.mb-0.mb-md-0.mb-0
                 .row.mb-0
                   .col-lg-4.mb-3
@@ -241,34 +240,34 @@
 
 
 
-      .row.justify-content-center.cursor-pointer.mb-5(data-aos="zoom-in-left")
-        .col-xl-4.col-lg-4.col-md-10.col-12.mb-4.mb-xl-0
-          .crd_hover_txt(@mouseover="mostrarIndicador = false")
-            .indicador--hover(v-if="mostrarIndicador")
-            .crd_hover_txt--img
-              figure
-                img(src="@/assets/curso/Tema1/a.png", alt="")
-            .crd_hover_txt--body.bg10
-              h5.mb-3 a)	Estrategias para el mejoramiento de la salud del suelo
-              p.mb-0 La fragmentación de residuos consiste en la descomposición física inicial de restos orgánicos como hojas, raíces, estiércol y otros materiales vegetales y animales. Este proceso es realizado principalmente por organismos de la mesofauna, como ácaros y colémbolos, y de la macrofauna, como lombrices y escarabajos. Esta función reduce el tamaño de los residuos orgánicos, aumenta la superficie de contacto para la acción de microorganismos como bacterias y hongos, acelera los procesos de descomposición y mineralización, y facilita la liberación de nutrientes esenciales como nitrógeno, fósforo y potasio. En consecuencia, resulta clave para el reciclaje de nutrientes y la formación de materia orgánica estable o humus.
-        .col-xl-4.col-lg-4.col-md-10.col-12.mb-4.mb-xl-0
-          .crd_hover_txt
-            .crd_hover_txt--img
-              figure
-                img(src="@/assets/curso/Tema1/b.png", alt="")
-            .crd_hover_txt--body.bg10
-              h4.mb-3 b) Indicadores de un suelo saludable
-              p.mb-0 La mezcla del suelo es el proceso mediante el cual los organismos integran los diferentes componentes del suelo, es decir, materia orgánica, minerales, aire y agua, favoreciendo la homogeneidad del perfil edáfico. Este proceso es realizado principalmente por la macrofauna, especialmente las lombrices. Su acción permite incorporar materia orgánica desde la superficie hacia capas más profundas, favorece la formación de agregados estables del suelo y mejora la distribución de nutrientes en el perfil. De esta manera, contribuye a mantener un suelo estructuralmente equilibrado y con mejores condiciones para el desarrollo de las raíces.
-        
-        .col-xl-4.col-lg-4.col-md-10.col-12.mb-4.mb-xl-0
-          .crd_hover_txt
-            .crd_hover_txt--img
-              figure
-                img(src="@/assets/curso/Tema1/c.png", alt="")
-            .crd_hover_txt--body.bg10
-              h4.mb-3 b) Indicadores de un suelo saludable
-              p.mb-0 Diversos organismos del suelo, al desplazarse o excavar, crean galerías y poros que conforman una red de canales que mejoran significativamente las propiedades físicas del suelo. Este proceso incrementa la aireación, permitiendo el intercambio de gases como oxígeno y dióxido de carbono, mejora la infiltración del agua al reducir la escorrentía superficial y la erosión, favorece el almacenamiento de agua disponible para las plantas y facilita el crecimiento radicular al disminuir la resistencia del suelo. Las lombrices, las termitas y algunos insectos son los principales responsables de esta función.
-
+      .fondo2.p-5.mb-4(data-aos="zoom-in-left")
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-12
+            .tarjeta.fondosly.p-4
+              PasosB.color-secundario
+                .row.justify-content-center.align-items-center(titulo=" Fragmentación de residuos")
+                  .col-lg-6.mb-4.mb-md-0
+                    h4 a) Fragmentación de residuos
+                    p La fragmentación de residuos consiste en la descomposición física inicial de restos orgánicos como hojas, raíces, estiércol y otros materiales vegetales y animales. Este proceso es realizado principalmente por organismos de la mesofauna, como ácaros y colémbolos, y de la macrofauna, como lombrices y escarabajos. Esta función reduce el tamaño de los residuos orgánicos, aumenta la superficie de contacto para la acción de microorganismos como bacterias y hongos, acelera los procesos de descomposición y mineralización, y facilita la liberación de nutrientes esenciales como nitrógeno, fósforo y potasio. En consecuencia, resulta clave para el reciclaje de nutrientes y la formación de materia orgánica estable o humus.
+                  .col-lg-4.mb-3.col-md-8
+                    figure
+                      img(src='@/assets/curso/Tema1/new1.png', alt='')
+               
+                .row.justify-content-center.align-items-center(titulo="b) Mezcla del suelo")
+                  .col-lg-6.mb-4.mb-md-0
+                    h4 b) Mezcla del suelo
+                    p La mezcla del suelo es el proceso mediante el cual los organismos integran los diferentes componentes del suelo, es decir, materia orgánica, minerales, aire y agua, favoreciendo la homogeneidad del perfil edáfico. Este proceso es realizado principalmente por la macrofauna, especialmente las lombrices. Su acción permite incorporar materia orgánica desde la superficie hacia capas más profundas, favorece la formación de agregados estables del suelo y mejora la distribución de nutrientes en el perfil. De esta manera, contribuye a mantener un suelo estructuralmente equilibrado y con mejores condiciones para el desarrollo de las raíces.
+                  .col-lg-4.mb-3.col-md-8
+                    figure
+                      img(src='@/assets/curso/Tema1/new2.png', alt='')
+                
+                .row.justify-content-center.align-items-center(titulo="c) Formación de canales  (aireación e infiltración)")
+                  .col-lg-6.mb-4.mb-md-0
+                    h4 c) Formación de canales  (aireación e infiltración)
+                    p Diversos organismos del suelo, al desplazarse o excavar, crean galerías y poros que conforman una red de canales que mejoran significativamente las propiedades físicas del suelo. Este proceso incrementa la aireación, permitiendo el intercambio de gases como oxígeno y dióxido de carbono, mejora la infiltración del agua al reducir la escorrentía superficial y la erosión, favorece el almacenamiento de agua disponible para las plantas y facilita el crecimiento radicular al disminuir la resistencia del suelo. Las lombrices, las termitas y algunos insectos son los principales responsables de esta función.
+                  .col-lg-4.mb-3.col-md-8
+                    figure
+                      img(src='@/assets/curso/Tema1/new3.png', alt='')
       p.bg08.p-3.text-center #[b NOTA:] las lombrices, termitas y algunos insectos son los principales responsables de esta función.
 
             
@@ -325,7 +324,7 @@
                     | Inician los procesos de descomposición biológica. 
                   li.d-flex
                     i.fas •
-                    | Protegen la superficie del suelo cuando actúan como cobertura #[em (mulch)]. 
+                    p.mb-0 Protegen la superficie del suelo cuando actúan como cobertura #[em (mulch)]. 
                   li.d-flex
                     i.fas •
                     | Contribuyen a la formación futura de humus. 
@@ -339,7 +338,7 @@
         .col-lg-7
           .row.justify-content-center.align-items-center.bg007.p-3
             .col-lg-12
-              h3 b. Biomasa Microbiana
+              h3 b. Biomasa microbiana
               p Es la fracción viva de la materia orgánica, compuesta por microorganismos como bacterias, hongos, actinomicetos, algas y protozoos.
 
 
@@ -454,7 +453,7 @@
 
       separador
       #t_1_3.titulo-segundo.mb-5(data-aos="zoom-in-left")
-        h2 1.3.	 Procesos biológicos en el suelo.
+        h2 1.3.	 Procesos biológicos en el suelo
 
       .fondo001.p-4.mb-4(data-aos="zoom-in-left")
         .row.justify-content-center.align-items-center
@@ -586,10 +585,10 @@
                           ul.lista-ul
                             li.d-flex
                               i.fas •
-                              | Bacterias simbióticas como  Rhizobium (en leguminosas).
+                              | Bacterias simbióticas como  #[em Rhizobium] (en leguminosas).
                             li.d-flex
                               i.fas •
-                              | Bacterias libres como Azotobacter y Clostridium.
+                              | Bacterias libres como #[em Azotobacter] y #[em Clostridium].
 
                         td
                           ul.lista-ul
@@ -693,13 +692,14 @@
         .col-lg-12
           .titulo-sexto.color-acento-botones(data-aos='fade-right')
             h5 Figura 1.
-            span.text-small Procesos de transformación de la materia orgánica en el suelo Este ciclo permite mantener el equilibrio entre la disponibilidad inmediata de nutrientes y su almacenamiento en el suelo.
+            span Procesos de transformación de la materia orgánica en el suelo 
+          p Este ciclo permite mantener el equilibrio entre la disponibilidad inmediata de nutrientes y su almacenamiento en el suelo.
           img(src='@/assets/curso/Tema1/fig1.svg', alt='Diagrama de los procesos de transformación de la materia orgánica en el suelo: descomposición, mineralización, inmovilización, nitrificación y humificación.')
 
 
       separador
       #t_1_4.titulo-segundo.mb-5(data-aos="zoom-in-left")
-        h2 1.4.	 Enmiendas o abonos orgánicos.
+        h2 1.4.	 Enmiendas o abonos orgánicos
 
       .row.justify-content-center.align-items-center.mb-4.bg07(data-aos="zoom-in-left")
         .col-lg-5.d-none.d-lg-block
@@ -759,13 +759,9 @@
               figure
                 img(src='@/assets/curso/Tema1/img14.png', alt='Texto que describa la imagen')
 
-          .row.justify-content-center
-            .col-lg-6.mb-4.mb-md-0
-              p La aplicación de enmiendas orgánicas debe realizarse bajo criterios técnicos que permitan optimizar sus beneficios y evitar efectos negativos en el suelo y los cultivos. No existe una única forma de uso, ya que su manejo depende de las condiciones específicas del sistema productivo. A continuación, se amplían los principales criterios a considerar:
-            .col-lg-4.col-md-8
-              figure
-                img(src='@/assets/curso/Tema1/img14.png', alt='Texto que describa la imagen')
-
+       
+      p.bg007.p-4.mb-4  La aplicación de enmiendas orgánicas debe realizarse bajo criterios técnicos que permitan optimizar sus beneficios y evitar efectos negativos en el suelo y los cultivos. No existe una única forma de uso, ya que su manejo depende de las condiciones específicas del sistema productivo. A continuación, se amplían los principales criterios a considerar:
+      
       TabsB.color-acento-botones(data-aos="zoom-in-left")
         .py-4.py-md-5(titulo="a)	Tipo de cultivo" :icono="require('@/assets/curso/Tema1/tab1.svg')")
           .row.justify-content-center

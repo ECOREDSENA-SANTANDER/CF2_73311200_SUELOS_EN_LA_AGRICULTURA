@@ -257,7 +257,7 @@
             h5 Cobertura vegetal
             p Consiste en mantener el suelo cubierto con plantas vivas.
             p La cobertura vegetal puede ser natural, como la vegetación espontánea, o sembrada, e incluye pastos, leguminosas o restos de cultivos. Su función principal es reducir el impacto directo de la lluvia sobre el suelo, disminuir la erosión hídrica y eólica, favorecer la infiltración del agua y proteger la capa superficial rica en nutrientes. Esta práctica se considera una de las más efectivas y económicas para la conservación del suelo, especialmente en zonas con pendientes pronunciadas o con lluvias intensas. 
-        .row.justify-content-center(titulo="<i>mulching</i>")
+        .row.justify-content-center(titulo="<i>Mulching</i>")
           .col-lg-5.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/Tema2/1.png', alt='')

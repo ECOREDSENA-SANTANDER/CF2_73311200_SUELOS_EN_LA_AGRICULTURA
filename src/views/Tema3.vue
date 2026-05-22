@@ -65,7 +65,7 @@
                   figure
                     img(src='@/assets/curso/Tema3/img03.svg', alt='Texto que describa la imagen')          
               h2.text-center a) Impactos positivos
-              p un manejo adecuado del suelo genera efectos favorables en el desarrollo de los cultivos, tales como una mejor germinación de las semillas, un mayor crecimiento de las plantas y una mayor resistencia frente a condiciones de estrés biótico y abiótico. Además, contribuye a la mejora de la estructura del suelo, favorece la aireación, optimiza la infiltración del agua y promueve una mayor actividad de microorganismos benéficos, lo que se traduce en un sistema productivo más estable y eficiente.
+              p Un manejo adecuado del suelo genera efectos favorables en el desarrollo de los cultivos, tales como una mejor germinación de las semillas, un mayor crecimiento de las plantas y una mayor resistencia frente a condiciones de estrés biótico y abiótico. Además, contribuye a la mejora de la estructura del suelo, favorece la aireación, optimiza la infiltración del agua y promueve una mayor actividad de microorganismos benéficos, lo que se traduce en un sistema productivo más estable y eficiente.
             
             .col-md.tarjeta.bg05.p-5
               .row.justify-content-center.mb-4
@@ -73,7 +73,7 @@
                   figure
                     img(src='@/assets/curso/Tema3/img04.svg', alt='Texto que describa la imagen')          
               h2.text-center.text-white b) Impactos negativos
-              p.text-white por el contrario, un manejo inadecuado del suelo puede generar efectos perjudiciales como la compactación, la cual limita el desarrollo de las raíces y reduce la infiltración de agua; la erosión, que provoca la pérdida de nutrientes y materia orgánica; y el uso excesivo de productos químicos, que afecta negativamente la biodiversidad del suelo, reduciendo la actividad de microorganismos esenciales para los procesos de descomposición y reciclaje de nutrientes. Estos factores disminuyen la fertilidad del suelo y comprometen la sostenibilidad de los sistemas agrícolas.
+              p.text-white Por el contrario, un manejo inadecuado del suelo puede generar efectos perjudiciales como la compactación, la cual limita el desarrollo de las raíces y reduce la infiltración de agua; la erosión, que provoca la pérdida de nutrientes y materia orgánica; y el uso excesivo de productos químicos, que afecta negativamente la biodiversidad del suelo, reduciendo la actividad de microorganismos esenciales para los procesos de descomposición y reciclaje de nutrientes. Estos factores disminuyen la fertilidad del suelo y comprometen la sostenibilidad de los sistemas agrícolas.
 
       separador
       #t_3_2.titulo-segundo.mb-5(data-aos="zoom-in-left")
@@ -81,25 +81,26 @@
 
       p La salud del suelo se entiende como su capacidad para funcionar como un ecosistema vivo, capaz de sostener la productividad agrícola, regular el ciclo de nutrientes, conservar el agua y mantener una alta diversidad biológica. Un suelo saludable presenta equilibrio entre sus propiedades físicas, químicas y biológicas, lo que permite el desarrollo adecuado de los cultivos y la sostenibilidad de los sistemas productivos.
 
-      .row.justify-content-center.cursor-pointer.mb-5(data-aos="zoom-in-left")
-        .col-xl-6.col-lg-7.col-md-10.col-12.mb-4.mb-xl-0
-          .crd_hover_txt(@mouseover="mostrarIndicador = false")
-            .indicador--hover(v-if="mostrarIndicador")
-            .crd_hover_txt--img
-              figure
-                img(src="@/assets/curso/Tema3/a.png", alt="")
-            .crd_hover_txt--body.bg10
-              h5.mb-3 a)	Estrategias para el mejoramiento de la salud del suelo
-              p.mb-0 Para mejorar la salud del suelo se pueden implementar diversas estrategias de manejo sostenible. Entre las principales se encuentra el incremento de la materia orgánica mediante el uso de compost, estiércol bien descompuesto y residuos vegetales, lo cual mejora la fertilidad y la estructura del suelo. También es fundamental la diversificación de cultivos, ya que la rotación y asociación de especies reducen plagas, enfermedades y el agotamiento de nutrientes. La reducción de la labranza intensiva contribuye a evitar la compactación y la pérdida de estructura del suelo, favoreciendo su estabilidad. Asimismo, la incorporación de microorganismos benéficos estimula los procesos biológicos relacionados con la descomposición y la disponibilidad de nutrientes. Finalmente, la implementación de sistemas agroecológicos integra estas prácticas en un enfoque sostenible que protege los recursos naturales y mejora la productividad a largo plazo.
-        .col-xl-6.col-lg-7.col-md-10.col-12.mb-4.mb-xl-0
-          .crd_hover_txt
-            .crd_hover_txt--img
-              figure
-                img(src="@/assets/curso/Tema3/b.png", alt="")
-            .crd_hover_txt--body.bg10
-              h4.mb-3 b) Indicadores de un suelo saludable
-              p.mb-0 Un suelo saludable se puede identificar mediante varios indicadores visibles y funcionales. Entre ellos se destaca una buena estructura del suelo, con agregados estables que facilitan la aireación y el desarrollo radicular. También se observa una alta actividad biológica, reflejada en la presencia de microorganismos y fauna del suelo. La presencia de lombrices es un indicador importante de fertilidad y equilibrio ecológico. Adicionalmente, un suelo saludable presenta una buena capacidad de infiltración de agua, lo que permite su adecuada retención y disponibilidad para las plantas, reduciendo riesgos de erosión y escorrentía.
-
+       .fondo2.p-5.mb-4(data-aos="zoom-in-left")
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-12
+            .tarjeta.fondosly.p-4
+              PasosB.color-secundario
+                .row.justify-content-center.align-items-center(titulo="Estrategias para el mejoramiento de la salud del suelo")
+                  .col-lg-7.mb-4.mb-md-0
+                    h4 a) Estrategias para el mejoramiento de la salud del suelo
+                    p Para mejorar la salud del suelo se pueden implementar diversas estrategias de manejo sostenible. Entre las principales se encuentra el incremento de la materia orgánica mediante el uso de compost, estiércol bien descompuesto y residuos vegetales, lo cual mejora la fertilidad y la estructura del suelo. También es fundamental la diversificación de cultivos, ya que la rotación y asociación de especies reducen plagas, enfermedades y el agotamiento de nutrientes. La reducción de la labranza intensiva contribuye a evitar la compactación y la pérdida de estructura del suelo, favoreciendo su estabilidad. Asimismo, la incorporación de microorganismos benéficos estimula los procesos biológicos relacionados con la descomposición y la disponibilidad de nutrientes. Finalmente, la implementación de sistemas agroecológicos integra estas prácticas en un enfoque sostenible que protege los recursos naturales y mejora la productividad a largo plazo.
+                  .col-lg-4.mb-3.col-md-8
+                    figure
+                      img(src='@/assets/curso/Tema3/a.png', alt='')
+               
+                .row.justify-content-center.align-items-center(titulo="Indicadores de un suelo saludable")
+                  .col-lg-6.mb-4.mb-md-0
+                    h4 b) Indicadores de un suelo saludable
+                    p Un suelo saludable se puede identificar mediante varios indicadores visibles y funcionales. Entre ellos se destaca una buena estructura del suelo, con agregados estables que facilitan la aireación y el desarrollo radicular. También se observa una alta actividad biológica, reflejada en la presencia de microorganismos y fauna del suelo. La presencia de lombrices es un indicador importante de fertilidad y equilibrio ecológico. Adicionalmente, un suelo saludable presenta una buena capacidad de infiltración de agua, lo que permite su adecuada retención y disponibilidad para las plantas, reduciendo riesgos de erosión y escorrentía.
+                  .col-lg-4.mb-3.col-md-8
+                    figure
+                      img(src='@/assets/curso/Tema3/b.png', alt='')
 
 
 
