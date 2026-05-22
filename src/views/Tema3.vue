@@ -90,15 +90,15 @@
                   .col-lg-7.mb-4.mb-md-0
                     h4 a) Estrategias para el mejoramiento de la salud del suelo
                     p Para mejorar la salud del suelo se pueden implementar diversas estrategias de manejo sostenible. Entre las principales se encuentra el incremento de la materia orgánica mediante el uso de compost, estiércol bien descompuesto y residuos vegetales, lo cual mejora la fertilidad y la estructura del suelo. También es fundamental la diversificación de cultivos, ya que la rotación y asociación de especies reducen plagas, enfermedades y el agotamiento de nutrientes. La reducción de la labranza intensiva contribuye a evitar la compactación y la pérdida de estructura del suelo, favoreciendo su estabilidad. Asimismo, la incorporación de microorganismos benéficos estimula los procesos biológicos relacionados con la descomposición y la disponibilidad de nutrientes. Finalmente, la implementación de sistemas agroecológicos integra estas prácticas en un enfoque sostenible que protege los recursos naturales y mejora la productividad a largo plazo.
-                  .col-lg-4.mb-3.col-md-8
+                  .col-lg-3.mb-3.col-md-8
                     figure
                       img(src='@/assets/curso/Tema3/a.png', alt='')
                
                 .row.justify-content-center.align-items-center(titulo="Indicadores de un suelo saludable")
-                  .col-lg-6.mb-4.mb-md-0
+                  .col-lg-7.mb-4.mb-md-0
                     h4 b) Indicadores de un suelo saludable
                     p Un suelo saludable se puede identificar mediante varios indicadores visibles y funcionales. Entre ellos se destaca una buena estructura del suelo, con agregados estables que facilitan la aireación y el desarrollo radicular. También se observa una alta actividad biológica, reflejada en la presencia de microorganismos y fauna del suelo. La presencia de lombrices es un indicador importante de fertilidad y equilibrio ecológico. Adicionalmente, un suelo saludable presenta una buena capacidad de infiltración de agua, lo que permite su adecuada retención y disponibilidad para las plantas, reduciendo riesgos de erosión y escorrentía.
-                  .col-lg-4.mb-3.col-md-8
+                  .col-lg-3.mb-3.col-md-8
                     figure
                       img(src='@/assets/curso/Tema3/b.png', alt='')
 
