@@ -177,7 +177,7 @@
 
             .row.justify-content-center(titulo="b)	<i>Mesofauna</i>")
               .col-md-11.mb-4.mb-md-0
-                p La macrofauna del suelo está compuesta por organismos de mayor tamaño, generalmente superiores a 2 milímetros, visibles a simple vista y con una alta capacidad de modificar físicamente la estructura del suelo. Estos organismos cumplen funciones clave en la formación, aireación, mezcla y fertilidad del suelo, por lo que son considerados fundamentales en los sistemas agrícolas sostenibles. Entre los principales representantes de la macrofauna se encuentran.
+                p La mesofauna del suelo está compuesta por organismos de mayor tamaño, generalmente superiores a 2 milímetros, visibles a simple vista y con una alta capacidad de modificar físicamente la estructura del suelo. Estos organismos cumplen funciones clave en la formación, aireación, mezcla y fertilidad del suelo, por lo que son considerados fundamentales en los sistemas agrícolas sostenibles. Entre los principales representantes de la macrofauna se encuentran.
               .col-md-10.mb-0.mb-md-0.mb-0
                 .row.mb-2
                   .col-lg-4.mb-3
@@ -688,13 +688,13 @@
 
       p #[b NOTA:] estos procesos no ocurren de forma aislada, sino que están interconectados en el ciclo de la materia orgánica.
 
-      .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left")
+      .row.justify-content-center.align-items-center.mb-2(data-aos="zoom-in-left").bg15.p-4
         .col-lg-12
           .titulo-sexto.color-acento-botones(data-aos='fade-right')
             h5 Figura 1.
             span Procesos de transformación de la materia orgánica en el suelo 
           p Este ciclo permite mantener el equilibrio entre la disponibilidad inmediata de nutrientes y su almacenamiento en el suelo.
-          img(src='@/assets/curso/Tema1/fig1.svg', alt='Diagrama de los procesos de transformación de la materia orgánica en el suelo: descomposición, mineralización, inmovilización, nitrificación y humificación.')
+          img(src='@/assets/curso/Tema1/fig1.png', alt='Diagrama de los procesos de transformación de la materia orgánica en el suelo: descomposición, mineralización, inmovilización, nitrificación y humificación.')
 
 
       separador
