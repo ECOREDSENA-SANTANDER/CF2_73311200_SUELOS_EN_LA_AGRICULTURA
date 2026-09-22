@@ -119,12 +119,7 @@
             )
               .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
-      .row.justify-content-center.align-items-center(data-aos="zoom-in-left")        
-        .col-lg-12
-          figure
-            .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. 
+    
 
       separador
       #t_1_1.titulo-segundo.mb-5(data-aos="zoom-in-left")
