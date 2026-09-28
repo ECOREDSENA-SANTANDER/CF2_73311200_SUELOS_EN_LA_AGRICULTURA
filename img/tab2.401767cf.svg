@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61.899" height="61.899" viewBox="0 0 61.899 61.899">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_455689" data-name="Rectángulo 455689" width="44" height="56" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1204893" data-name="Grupo 1204893" transform="translate(6236 271.281)">
+    <g id="Grupo_1204477" data-name="Grupo 1204477" transform="translate(-6236 -271.281)">
+      <g id="Grupo_1072053" data-name="Grupo 1072053" transform="translate(0 0)">
+        <ellipse id="Elipse_4742" data-name="Elipse 4742" cx="30.949" cy="30.949" rx="30.949" ry="30.949" transform="translate(0)" fill="#375e02"/>
+      </g>
+    </g>
+    <g id="Grupo_1204671" data-name="Grupo 1204671" transform="translate(-6227 -270)">
+      <g id="Grupo_1204670" data-name="Grupo 1204670" clip-path="url(#clip-path)">
+        <path id="Trazado_1263385" data-name="Trazado 1263385" d="M39,27H31.44A3.906,3.906,0,0,0,32,25a4,4,0,0,0-4-4H25V17.41L28.41,14H32a5,5,0,0,0,5-5V5a1,1,0,0,0-1-1H32a5,5,0,0,0-5,5v3.59l-2,2V3a3,3,0,0,0-6,0v7.59l-2-2V5a5,5,0,0,0-5-5H8A1,1,0,0,0,7,1V5a5,5,0,0,0,5,5h3.59L19,13.41V21H16a4,4,0,0,0-4,4,3.906,3.906,0,0,0,.56,2H5a5,5,0,0,0-5,5v2a22,22,0,0,0,44,0V32a5,5,0,0,0-5-5M29,9a3,3,0,0,1,3-3h3V9a3,3,0,0,1-3,3H29ZM9,5V2h3a3,3,0,0,1,3,3V8H12A3,3,0,0,1,9,5M21,3a1,1,0,0,1,2,0V21H21ZM14,25a2,2,0,0,1,2-2H28a2,2,0,0,1,0,4H16a2,2,0,0,1-2-2m-2,8a1,1,0,0,1-1-1V29H24v4a1,1,0,0,1-1,1H22a3,3,0,0,0-3,3,1,1,0,0,1-1,1H16a1,1,0,0,1-1-1V36a3,3,0,0,0-3-3m30,1A20,20,0,0,1,2,34V32a3,3,0,0,1,3-3H9v3a3,3,0,0,0,3,3,1,1,0,0,1,1,1v1a3,3,0,0,0,3,3h2a3,3,0,0,0,3-3,1,1,0,0,1,1-1h1a3,3,0,0,0,3-3V29H39a3,3,0,0,1,3,3Zm-3,0a1,1,0,0,1-1,1H34a1,1,0,0,1,0-2h4a1,1,0,0,1,1,1m-6,5a1,1,0,0,1-1,1H28a1,1,0,0,1,0-2h4a1,1,0,0,1,1,1m-3,8a1,1,0,0,1-1,1H25a1,1,0,0,1,0-2h4a1,1,0,0,1,1,1M18,44a1,1,0,0,1-1,1H13a1,1,0,0,1,0-2h4a1,1,0,0,1,1,1" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
