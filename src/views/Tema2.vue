@@ -56,7 +56,7 @@
               .row.justify-content-center.mb-4
                 .col-6
                   figure
-                    img(src='@/assets/curso/Tema2/a.svg', alt='Texto que describa la imagen')          
+                    img(src='@/assets/curso/Tema2/a.svg', alt='')          
               h2.text-center Conservación de la biodiversidad
               p La biodiversidad del suelo incluye microorganismos, fauna edáfica y vegetación asociada, los cuales cumplen funciones esenciales en el equilibrio del ecosistema.
               ul.lista-ul
@@ -76,7 +76,7 @@
               .row.justify-content-center.mb-4
                 .col-6
                   figure
-                    img(src='@/assets/curso/Tema2/b.svg', alt='Texto que describa la imagen')          
+                    img(src='@/assets/curso/Tema2/b.svg', alt='')          
               h2.text-center.text-white Minimización del impacto ambiental
               p.text-white Este principio busca reducir los efectos negativos de la actividad agrícola sobre el entorno natural.
               ul.lista-ul.text-white
@@ -130,7 +130,7 @@
         .col-sm-12.col-lg-7
           .d-flex.align-items-center
             img.w-card-icon(src="@/assets/curso/Tema3/ico.svg")
-            h3.bg001.py-2.w-card-text Se clasifica principalmente en tres tipos
+            h3.bg001.py-2.w-card-text Se clasifica principalmente en tres tipos:
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-4.col-8.mb-3
@@ -169,7 +169,7 @@
                   | Mayor susceptibilidad a la erosión. 
           .row.justify-content-center(titulo="b) Degradación química")
             .col-md-11.mb-2.mb-md-0
-              p La degradación química implica cambios negativos en la composición química del suelo, afectando la disponibilidad de nutrientes y el desarrollo de los cultivos. se presentan sus principales formas.
+              p La degradación química implica cambios negativos en la composición química del suelo, afectando la disponibilidad de nutrientes y el desarrollo de los cultivos. A continuación, se presentan sus principales formas.
               ul.lista-ul
                 li.d-flex
                   i.fas.fa-hoja

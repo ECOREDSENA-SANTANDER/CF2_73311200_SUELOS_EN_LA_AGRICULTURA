@@ -231,11 +231,11 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Cropaia (s.f.). Los organismos del suelo.',
+      referencia: 'Cropaia (s. f.). Los organismos del suelo.',
       link: '',
     },
     {
-      referencia: 'Encolombia (s.f.). Agricultura integrada.',
+      referencia: 'Encolombia (s. f.). Agricultura integrada.',
       link: '',
     },
     {
@@ -245,22 +245,22 @@ export default {
     },
     {
       referencia:
-        'Laboratorio Gedysa (s.f.). Propiedades biológicas en el suelo.',
+        'Laboratorio Gedysa (s. f.). Propiedades biológicas en el suelo.',
       link: '',
     },
     {
       referencia:
-        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s.f.). Biodiversidad del suelo. Portal de Suelos de la FAO.',
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). Biodiversidad del suelo. Portal de Suelos de la FAO.',
       link: '',
     },
     {
       referencia:
-        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s.f.). Conservación del suelo. Portal de Suelos de la FAO.',
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). Conservación del suelo. Portal de Suelos de la FAO.',
       link: '',
     },
     {
       referencia:
-        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s.f.). Propiedades biológicas del suelo. Portal de Suelos de la FAO.',
+        'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). Propiedades biológicas del suelo. Portal de Suelos de la FAO.',
       link: '',
     },
   ],
@@ -300,17 +300,17 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Julian Fernando Vanegas Vega',
+          nombre: 'Julián Fernando Vanegas Vega',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Leonardo Castellanos Rodriguez',
+          nombre: 'Leonardo Castellanos Rodríguez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Maria Alejandra Vera Briceño',
+          nombre: 'María Alejandra Vera Briceño',
           cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
