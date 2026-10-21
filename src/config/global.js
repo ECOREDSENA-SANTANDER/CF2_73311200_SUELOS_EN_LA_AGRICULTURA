@@ -231,37 +231,30 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Cropaia (s. f.). Los organismos del suelo.',
-      link: '',
+      referencia: 'Cropaia. (s. f.). Los organismos del suelo.',
     },
     {
-      referencia: 'Encolombia (s. f.). Agricultura integrada.',
-      link: '',
-    },
-    {
-      referencia:
-        'InfoAgrónomo. (2023, diciembre 9). Propiedades del suelo: físicas, químicas y biológicas.',
-      link: '',
+      referencia: 'Encolombia. (s. f.). Agricultura integrada.',
     },
     {
       referencia:
-        'Laboratorio Gedysa (s. f.). Propiedades biológicas en el suelo.',
-      link: '',
+        'InfoAgrónomo. (2023, 9 de diciembre). Propiedades del suelo: físicas, químicas y biológicas.',
+    },
+    {
+      referencia:
+        'Laboratorio Gedysa. (s. f.). Propiedades biológicas en el suelo.',
     },
     {
       referencia:
         'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). Biodiversidad del suelo. Portal de Suelos de la FAO.',
-      link: '',
     },
     {
       referencia:
         'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). Conservación del suelo. Portal de Suelos de la FAO.',
-      link: '',
     },
     {
       referencia:
         'Organización de las Naciones Unidas para la Alimentación y la Agricultura. (s. f.). Propiedades biológicas del suelo. Portal de Suelos de la FAO.',
-      link: '',
     },
   ],
   creditos: [
