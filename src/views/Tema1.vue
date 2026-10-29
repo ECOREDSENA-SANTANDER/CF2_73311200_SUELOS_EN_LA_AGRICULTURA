@@ -579,11 +579,9 @@
                         td
                           ul.lista-ul
                             li.d-flex
-                              i.fas •
-                              | Bacterias simbióticas como  #[em Rhizobium] (en leguminosas).
+                            | • Bacterias simbióticas como #[em Rhizobium] (en leguminosas).
                             li.d-flex
-                              i.fas •
-                              | Bacterias libres como #[em Azotobacter] y #[em Clostridium].
+                            | • Bacterias libres como #[em Azotobacter] y #[em Clostridium].
 
                         td
                           ul.lista-ul
@@ -731,7 +729,7 @@
             .col-lg-6.mb-4.mb-md-0
               h5 c) Humus de lombriz
               p El humus de lombriz o #[em lombricompost] es el producto de la digestión de materia orgánica por lombrices, principalmente de la especie #[em Eisenia foetida].
-              p El compost se caracteriza por su alta concentración de microorganismos benéficos, la presencia de nutrientes en formas fácilmente disponibles y una textura fina y homogénea. Su uso contribuye a mejorar la estructura del suelo, la aireación y la retención de agua, además de estimular el crecimiento vegetal y el desarrollo radicular, aumentando la resistencia de las plantas a enfermedades. Por estas razones, es ideal para semilleros, huertas urbanas y cultivos en macetas.
+              p El humus de lombriz se caracteriza por su alta concentración de microorganismos benéficos, la presencia de nutrientes en formas fácilmente disponibles y una textura fina y homogénea. Su uso contribuye a mejorar la estructura del suelo, la aireación y la retención de agua, además de estimular el crecimiento vegetal y el desarrollo radicular, aumentando la resistencia de las plantas a enfermedades. Por estas razones, es ideal para semilleros, huertas urbanas y cultivos en macetas.
             .col-lg-4.col-md-8
               figure
                 img(src='@/assets/curso/Tema1/img12.png', alt='')
